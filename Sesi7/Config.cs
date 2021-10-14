@@ -176,7 +176,7 @@ namespace Sesi7
                 MySqlDataAdapter da = new MySqlDataAdapter(RecordSource, connection);
                 ds = new DataSet();
                 da.Fill(ds, ConnectionType);
-                da.Fill(ds);
+                //da.Fill(ds);
 
                 tempdata = new DataGridView();
 
