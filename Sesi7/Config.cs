@@ -141,7 +141,7 @@ namespace Sesi7
                 MySqlDataAdapter da2 = new MySqlDataAdapter(RecordSource, connection);
                 DataSet tempds = new DataSet();
                 da2.Fill(tempds, ConnectionType);
-                da2.Fill(tempds);
+                //da2.Fill(tempds);
 
             }
             catch (Exception e)
